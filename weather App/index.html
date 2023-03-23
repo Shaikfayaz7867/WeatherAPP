@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    
+    <section class="Home" id="Home">
+        <div class="app-main">
+            <div class="searchInputBox">
+                <input type="text" id="input-box" class="input-box" placeholder="Enter city name and Hit Enter" autocomplete="off">
+            </div>
+
+            <div class="weather-body">
+                <div class="location-details">
+                    <div class="city" id="city">Amravati, IN</div>
+                    <div class="date" id="date">10 June (Wednesday), 2020</div>
+                </div>
+
+                <div class="weather-status">
+                    <div class="temp" id="temp">34&deg;C</div>
+                    <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                    <div class="weather" id="weather">Clear</div>
+                    <div id="img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="title-1">
+        <h1>Cities</h1>
+    </div>
+
+    <main class="card">
+        <div class="card-1">
+            <img src="./images/cloud.jpg" width="300" height="300">
+            <h2 id="cardCity"></h2>
+            <h3 id="cardTemp"></h3>
+        </div>
+        <div class="card-2">
+            <img src="./images/rain.jpg" width="300" height="300">
+            <h2>Banglore</h2>
+            <h3>30&deg;C</h3>
+        </div>
+        <div class="card-3">
+            <img src="./images/sunny.jpg" width="300" height="300">
+            <h2>Chennai</h2>
+            <h3>34&deg;C</h3>
+        </div>
+    </main>
+
+    <div class="title-2">
+        <h1>News</h1>
+    </div>
+
+    <div class="News">
+        <div class="card-4">
+            <img src="./images/thunderstorm.jpg" width="300" height="300">
+            <div class="card-content">
+                <h2>Thunderstorms in Chennai</h2>
+                <a href="#" class="button">Read More</a>
+            </div>
+        </div>
+        <div class="card-5">
+            <img src="./images/snow.jpg" width="300" height="300">
+            <div class="card-content">
+                <h2>Snow in jammu & kashmir</h2>
+                <a href="#" class="button">Read More</a>
+            </div>
+        </div>
+        <div class="card-6">
+            <img src="./images/sunny.jpg" width="300" height="300">
+            <div class="card-content">
+                <h2>Sunny  in kerala</h2>
+                <a href="#" class="button">Read More</a>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About This</h3>
+            <p>Fetching data from https://openweathermap.org/ and presenting it in the UI</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Address: RR Homes Flatno:-308, Gudimalkapur Road, Mehdipatnam-500028,HYD</li>
+              <li>Phone: 8919047184</li>
+              <li>Email: shaikfayaz715@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Me</h3>
+            <ul>
+              <li><a href="#https://www.linkedin.com/in/shaik-mohammed-fayaz-ahmed-975a7b233/">Linkedin</a></li>
+              <li><a href="#https://github.com/Shaikfayaz7867">Github</a></li>
+              <li><a href="#https://www.instagram.com/fayazz_7472/">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      
+
+    <script src="app.js"></script>
+</body>
+
+</html>

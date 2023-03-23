@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+   
+  }
+
+.Home {
+    height: 500px;
+}
+
+body {
+    background-image: url(./images/cloud.jpg);
+    height: 300vh;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.app-main {
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+
+.weather-body {
+    display: none;
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.card-1 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-1:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-1:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+.card-2 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-2:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+
+.card-3 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-3:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-3:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+
+.News {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4e0fe0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #9372e2;
+}
+
+
+.card-4 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-4:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-4:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+
+.card-5 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-5:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-5:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-5::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+.card-6 {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card-6:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    cursor: grab;
+}
+
+.card-6:hover::after {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.card-6::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+.footer-title{
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    height: 300px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    width: 30%;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }
+ 
+  
+  
